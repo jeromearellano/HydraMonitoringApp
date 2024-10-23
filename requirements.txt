@@ -1,0 +1,4 @@
+gradio
+requests
+urllib3
+pyttsx3
