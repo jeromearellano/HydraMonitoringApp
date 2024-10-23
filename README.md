@@ -14,11 +14,52 @@ This Python application monitors **Hydra alarms** and automatically notifies the
 
 To install and run the app, follow these steps:
 
-1. Clone the repository or download the project files.
-2. Install the required dependencies using `pip install -r requirements.txt`.
-3. Configure the `config.ini` file to provide necessary settings like URL, host, and other parameters.
-4. Run the app by executing `python HydraMonitoringWebApp.py`.
+Follow these steps to set up the project on your local machine:
 
+1. **Create a Project Folder**:
+   Open your command prompt and navigate to your Desktop. Create a folder named `PyApp`.
+   ```bash
+      cd C:\Users\eid\Desktop
+      mkdir PyApp
+      cd PyApp
+   ```
+
+2. **Clone the Repository**:
+   Clone the Hydra Monitoring App repository from GitHub.
+   ```bash
+   git clone https://github.com/jeromearellano/HydraMonitoringApp.git
+   ```
+3. **Navigate to the Project Directory**:
+   Change to the project directory.
+   ```bash
+   cd HydraMonitoringApp
+   ```
+4. **Check Python Version**:
+   Ensure you have Python installed. You can check your Python version with:
+   ```bash
+   python --version
+   ```
+5. **Create a Virtual Environment**:
+   Create a virtual environment to manage dependencies.
+   ```bash
+   cd ..
+   python -m venv env312
+   ```
+6. **Activate the Virtual Environment**:
+   Navigate to the `Scripts` directory and activate the virtual environment.
+   ```bash
+   cd env312\Scripts
+   activate
+   ```
+   Note: If using `cmd`, the command is just `activate`. For PowerShell, use `.\Activate.ps1`.
+
+7. **Install Dependencies**:
+   Now, navigate back to the `HydraMonitoringApp` directory and install the necessary dependencies.
+   ```bash
+   cd ..\..
+   cd HydraMonitoringApp
+   pip install .
+   ```
 ## Configuration
 
 You can configure the following parameters in the `config.ini` file:
