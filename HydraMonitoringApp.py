@@ -205,9 +205,9 @@ def monitor_logs_thread(username, password):
 # Gradio Interface
 with gr.Blocks(title="Hydra Monitoring App") as demo:
     gr.Markdown("# Welcome to Hydra Alarm Monitoring")
-    gr.Markdown("### This app will automatically detect hydra alarms and notify user when an alarm is <span style='color:red;'><strong>RED</strong></span>.")
+    gr.Markdown("### This app will automatically detect hydra alarms and notify user when an alarm is <span style='color:red;'>RED</span>.")
     gr.Markdown(
-        "#### <span style='color:red;'>{ Note: Use <strong>DiMon username</strong> and password }</span>")
+        "#### <span style='color:red;'>{ Note: Use DiMon username and password }</span>")
 
     with gr.Row():
         username_input = gr.Textbox(

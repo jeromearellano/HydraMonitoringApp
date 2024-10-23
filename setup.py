@@ -12,7 +12,7 @@ setup(
     description="A web app to monitor Hydra alarms and notify users when alarms turn red.",  # A short description of your project
     long_description=long_description,  # Load README for the long description
     long_description_content_type="text/markdown",  # The format of the long description (Markdown)
-    url="https://github.com/yourusername/HydraMonitoringApp",  # Replace with actual repository URL
+    url="https://github.com/jeromearellano/HydraMonitoringApp.git",  # Replace with actual repository URL
     packages=find_packages(),  # Automatically find and include project packages
     install_requires=[  # List of dependencies to be installed via pip
         "gradio",
